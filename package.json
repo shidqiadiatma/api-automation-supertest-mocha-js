@@ -4,7 +4,10 @@
   "description": "API automation test example with Mocha JS, Supertest, and Chai",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rimraf ./mochawesome-report",
+    "test": "npm run clean && mocha ./test-reqres-api --reporter spec --reporter mochawesome --timeout 5000",
+    "test-bookstore": "npm run clean && mocha ./testcases --reporter spec --reporter mochawesome --timeout 5000",
+    "test-conf": "mocha --config=.mocharc.json"
   },
   "author": "shidqi adiatma",
   "license": "ISC",
