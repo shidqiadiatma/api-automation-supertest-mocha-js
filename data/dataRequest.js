@@ -11,6 +11,7 @@ const dataRegister= [
             "password": 'passWord123*'
         }
     },
+
     {
         cases: {
             schema: "failed_with_invalid_password_format",
@@ -22,6 +23,7 @@ const dataRegister= [
             "password": 'invalidformat'
         }
     },
+
     {
         cases: {
             schema: "failed_with_already_username",
@@ -47,6 +49,7 @@ const dataGtoken = [
             "password": 'passWord123*'
         }
     },
+
     {
         cases: {
             schema: "failed_with_invalid_username",
@@ -58,6 +61,7 @@ const dataGtoken = [
             "password": 'passWord123*'
         }
     },
+
     {
         cases: {
             schema: "failed_with_wrong_password",
@@ -69,6 +73,7 @@ const dataGtoken = [
             "password": 'passwordnyasalah'
         }
     },
+
 ]
 
 const dataAuth = [
@@ -83,6 +88,7 @@ const dataAuth = [
             "password": 'passWord123*'
         }
     },
+
     {
         cases: {
             schema: "failed_with_invalid_username_password",
@@ -94,6 +100,7 @@ const dataAuth = [
             "password": 'invalidpassword'
         }
     },
+
     {
         cases: {
             schema: "failed_with_empty_data",
@@ -119,6 +126,7 @@ let dataGetUser = [
             token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6IkphbmlzX0hhY2tldHQ3NCIsInBhc3N3b3JkIjoicGFzc1dvcmQxMjMqIiwiaWF0IjoxNjg2MzE2NjgyfQ.AComFsqNdr2ZhKTBBuNEocR7XUuU7WCnznYyerouO4A'
         }
     },
+
     {
         cases: {
             schema: "failed_with_invalid_token",
@@ -130,6 +138,7 @@ let dataGetUser = [
             token: 'invalid'+'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6IkphbmlzX0hhY2tldHQ3NCIsInBhc3N3b3JkIjoicGFzc1dvcmQxMjMqIiwiaWF0IjoxNjg2MzE2NjgyfQ.AComFsqNdr2ZhKTBBuNEocR7XUuU7WCnznYyerouO4A'
         }
     },
+
     {
         cases: {
             schema: "failed_with_invalid_userid",
@@ -154,6 +163,7 @@ let dataDeleteUser = [
             token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6IkphbmlzX0hhY2tldHQ3NCIsInBhc3N3b3JkIjoicGFzc1dvcmQxMjMqIiwiaWF0IjoxNjg2MzE2NjgyfQ.AComFsqNdr2ZhKTBBuNEocR7XUuU7WCnznYyerouO4A'
         }
     },
+
     {
         cases: {
             schema: "failed_with_invalid_token",
@@ -165,6 +175,7 @@ let dataDeleteUser = [
             token: 'invalid'+'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyTmFtZSI6IkphbmlzX0hhY2tldHQ3NCIsInBhc3N3b3JkIjoicGFzc1dvcmQxMjMqIiwiaWF0IjoxNjg2MzE2NjgyfQ.AComFsqNdr2ZhKTBBuNEocR7XUuU7WCnznYyerouO4A'
         }
     },
+    
     {
         cases: {
             schema: "failed_with_invalid_userid",

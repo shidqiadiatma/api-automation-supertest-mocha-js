@@ -2,8 +2,7 @@ const { randomUsername, randomUsernameGetUser } = require('../../helpers/generat
 const { dataGetUser } = require('../../data/dataRequest');
 class schema {
     register() {
-        // The API return response with unstable data
-        // So this is need to make differents response schema for each case
+
         return {
             success_with_valid_username_password: {
                 userID: '',
@@ -21,8 +20,7 @@ class schema {
         }
     }
     generateToken() {
-        // The API return response with unstable data
-        // So this is need to make differents response schema for each case
+
         return {
             success_with_valid_username_password: {
                 status: 'Success',
@@ -39,8 +37,7 @@ class schema {
         }
     }
     authUser() {
-        // The API return response with unstable data
-        // So this is need to make differents response schema for each case
+
         return {
             success_with_valid_username_password: 
                true 
@@ -56,8 +53,7 @@ class schema {
         }
     }
     getUser() {
-        // The API return response with unstable data
-        // So this is need to make differents response schema for each case
+
         return {
             success_with_valid_userid_token: {
                 userId: dataGetUser[0].body.userID,
@@ -74,8 +70,7 @@ class schema {
         }
     }
     deleteUser() {
-        // The API return response with unstable data
-        // So this is need to make differents response schema for each case
+
         return {
             success_with_valid_userid_token: {
             },
